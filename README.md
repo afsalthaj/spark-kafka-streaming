@@ -28,3 +28,7 @@ http://127.0.0.1:3030/
 As soon as you get a quick idea of how things work using the sample codes in this project, start reading the following documentation in order: </br>
 https://spark.apache.org/docs/2.1.0/streaming-programming-guide.html  </br>
 https://spark.apache.org/docs/2.1.0/streaming-kafka-0-10-integration.html
+
+## A few doubts:
+It says in spark streaming API, that one one StreamingContext can be active in a JVM at the same time.
+This can be different from the usual consumer implementations of Kafka. While we can consider spark streaming as an implementation of any other consumer, the limitation of only one context in a JVM makes it a little harder for parallel consumption of kafka message queues? As we learn, we might get an idea on how this can be handled in Spark Streaming.
