@@ -12,7 +12,7 @@ import org.apache.spark.streaming.kafka010._
 // Run a Landoop kafka docker container to have your kafka cluster up and running.
 // and then run the spark streaming job
 // the auto commit is false and configured to read from the `earliest`
-object Streaming {
+object SparkStreaming {
   def main(args: Array[String]): Unit = {
     val kafkaParameters = Map[String, Object](
       "bootstrap.servers" -> "127.0.0.1:9092",
