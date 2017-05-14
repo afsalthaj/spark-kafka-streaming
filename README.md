@@ -22,3 +22,9 @@ docker run --rm -it \
 ```
 Start the container and verify if you can see the UI in 
 http://127.0.0.1:3030/
+
+
+## For Beginners:
+As soon as you get a quick idea of how things work using the sample codes in this project, start reading the following documentation in order:
+https://spark.apache.org/docs/2.1.0/streaming-programming-guide.html
+https://spark.apache.org/docs/2.1.0/streaming-kafka-0-10-integration.html
