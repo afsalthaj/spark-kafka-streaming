@@ -13,7 +13,6 @@ import org.apache.kafka.common.serialization.StringDeserializer
 // You could try running multiple instances of consumer and see how the parallel processing works for
 // a consumer group
 object KafkaConsumerDemo {
-
   def main(args: Array[String]): Unit = {
     val properties = new Properties
     properties.setProperty("bootstrap.servers", "127.0.0.1:9092")
